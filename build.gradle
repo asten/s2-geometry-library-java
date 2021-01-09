@@ -12,7 +12,11 @@ dependencies {
 }
 
 
-
+test {
+    filter {
+        includeTestsMatching "*Test"
+    }
+}
 
 repositories {
   mavenLocal()
